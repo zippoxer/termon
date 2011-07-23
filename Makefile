@@ -1,7 +1,7 @@
 include $(GOROOT)/src/Make.inc
 
 TARG=termon.googlecode.com/hg
-GOFILES=
+GOFILES=defs.go
 CGOFILES=termon.go
 
 GC+= -I ./_obj
